@@ -2,6 +2,7 @@ package second;
 
 
 import first.Book;
+import first.Default;
 
 public class Main {
 
@@ -20,6 +21,11 @@ public class Main {
 
     System.out.println(bookObject1.getNumOfCopies());
     System.out.println(bookObject4.calculateBookPrice());
+
+    //Example for accessing an attribute that has default access modifier
+    Default newD = new Default();
+    // newD.word = "new word"; it is not public
+    newD.setWord("new word");
 
   }
 }
