@@ -2,6 +2,15 @@ package third;
 
 public abstract class Animal {
 
+  // Fields
+  protected String weight;
+
+
+  // Constructor
+  public  Animal (String w){
+    this.weight = w;
+  }
+
 
   // Abstract methods
   public  abstract  void sound();

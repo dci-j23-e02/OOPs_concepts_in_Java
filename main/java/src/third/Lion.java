@@ -3,6 +3,10 @@ package third;
 public class Lion  extends Animal{
   private static final int NUMBER_OF_LEGS = 4;
 
+  public Lion(String w) {
+    super(w);
+  }
+
 
   @Override
   public void sound() {
